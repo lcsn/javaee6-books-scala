@@ -9,7 +9,7 @@
 
 	<properties>
 		<java-ee-version>6.0</java-ee-version>
-		<scala-version>2.7.7</scala-version>
+		<scala-version>2.9.1</scala-version>
 	</properties>
 
 	<build>
@@ -33,6 +33,7 @@
 			<plugin>
 				<groupId>org.scala-tools</groupId>
 				<artifactId>maven-scala-plugin</artifactId>
+				<!-- 
 				<executions>
 					<execution>
 						<goals>
@@ -41,6 +42,7 @@
 						</goals>
 					</execution>
 				</executions>
+				 -->
 				<configuration>
 					<scalaVersion>${scala.version}</scalaVersion>
 				</configuration>
